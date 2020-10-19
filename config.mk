@@ -52,6 +52,10 @@ PRODUCT_PACKAGES += \
     ThemePicker \
     PixelThemesStub2019
 
+# Packages
+PRODUCT_PACKAGES += \
+    PixelLauncher
+
 # Bootanimation
 ifeq ($(TARGET_BOOT_ANIMATION_RES),1080)
      PRODUCT_COPY_FILES += $(LOCAL_PATH)/bootanimation/bootanimation_1080.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip

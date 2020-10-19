@@ -28,4 +28,7 @@
     <dimen name="config_buttonCornerRadius">16.0dip</dimen>
     <dimen name="config_progressBarCornerRadius">1000.0dip</dimen>
 
+    <!-- Recen Task -->
+    <string name="config_recentsComponentName">com.google.android.apps.nexuslauncher/com.android.quickstep.RecentsActivity</string>
+
 </resources>
