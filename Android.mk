@@ -13,3 +13,14 @@
 # limitations under the License.
 
 LOCAL_PATH := $(call my-dir)
+
+# Pixel Stub
+include $(CLEAR_VARS)
+LOCAL_MODULE := PixelThemesStub2019
+LOCAL_SRC_FILES := app/PixelThemesStub2019/PixelThemesStub2019.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_DEX_PREOPT := false
+include $(BUILD_PREBUILT)
